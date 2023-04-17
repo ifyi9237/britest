@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/06a32ca72c.js" crossorigin="anonymous"></script>
+    <title>Britest KYC</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="flex items-center text-xl text-white h-20 font-bold justify-center bg-[#de6497] text-center lg:px-5 lg:text-2xl">
+        BRITEST KYC FORM
+    </header>
+    <h2 class="uppercase text-xl my-10 lg:px-24 font-bold underline">applicant details</h2>
+    <form>
+        <section class="px-12 lg:px-24">
+            <!-- first row -->
+            <div class="flex justify-between items-center">
+                 <!-- left hand side -->
+                <div class="basis-[45%]">
+                    <label class="block text-sm font-medium text-slate-700">
+                       Firstname
+                    </label>
+                        <input type="text" name="fname"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                          focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                          invalid:border-pink-500 invalid:text-pink-600
+                          focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+                        "/>
+                </div>
+                 <!-- right hand side -->
+                <div class="basis-[45%]">
+                    <label class="block text-sm font-medium text-slate-700">Lastname </label>
+                        <!-- Using form state modifiers, the classes can be identical for every input -->
+                        <input type="text" name="lname"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                          focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                          invalid:border-pink-500 invalid:text-pink-600
+                          focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+                        "/>
+                </div>
+            </div>
+
+
+            <!-- second row -->
+            <div class="flex justify-between items-end lg:my-5">
+                <!-- left hand side -->
+               <div class="basis-[45%]">
+                   <label class="block text-sm font-medium text-slate-700">
+                    Father's /Spouse's  
+                   </label>
+                       <input type="text" name="fname" placeholder="Firstname"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                         focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                         invalid:border-pink-500 invalid:text-pink-600
+                         focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+                       "/>
+               </div>
+                <!-- right hand side -->
+               <div class="basis-[45%]">
+                       <!-- Using form state modifiers, the classes can be identical for every input -->
+                       <input type="text" name="lname" placeholder="Lastname"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                         focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                         invalid:border-pink-500 invalid:text-pink-600
+                         focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+                       "/>
+               </div>
+           </div>
+
+        <!-- third row -->
+          <div class="flex justify-between items-end lg:my-5">
+            <!-- left hand side -->
+            <div class="basis-[45%]">
+                <label class="block text-sm font-medium text-slate-700 lg:mb-3">
+                    Select Your Gender
+                 </label>
+                 <div class="options">
+                    <div class="flex">
+                        <label class="block text-sm  text-slate-700">
+                            Male
+                         </label>
+                         <input type="radio" name="gender"  value="Male" class="ml-3">
+                    </div>
+           
+                    <div class="flex">
+                        <label class="block text-sm  text-slate-700">
+                            Female
+                         </label>
+                         <input type="radio" name="gender"  value="Female" class="ml-3">
+                    </div>
+                    <div class="flex">
+                        <label class="block text-sm text-slate-700">
+                            Prefer not to say
+                         </label>
+                         <input type="radio" name="gender"  value="Prefer not to say" class="ml-3">
+                        </div>
+                    </div>    
+            </div>
+                 <!-- right hand side -->
+                 <div class="basis-[45%]">
+                    <label class="block text-sm font-medium text-slate-700 lg:mb-3">
+                        Marital Status
+                     </label>
+                     <div class="options">
+                        <div class="flex">
+                            <label class="block text-sm  text-slate-700">
+                                Single
+                             </label>
+                             <input type="radio" name="marital_status"  value="Single" class="ml-3">
+                        </div>
+               
+                        <div class="flex">
+                            <label class="block text-sm  text-slate-700">
+                                Married
+                             </label>
+                             <input type="radio" name="marital_status"  value="Married" class="ml-3">
+                        </div>
+                        <div class="flex">
+                            <label class="block text-sm text-slate-700">
+                             Divorced
+                             </label>
+                             <input type="radio" name="marital_status"  value="divorced" class="ml-3">
+                            </div>
+                        </div>
+                </div>
+            </div>
+               <!-- four row -->
+           <div class="flex justify-between items-center">
+            <!-- left hand side -->
+           <div class="basis-[45%]">
+               <label class="block text-sm font-medium text-slate-700">
+                 Date of Birth
+               </label>
+                   <input type="date" name="dob"  class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                     invalid:border-pink-500 invalid:text-pink-600
+                     focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+                   "/>
+           </div>
+            <!-- right hand side -->
+           <div class="basis-[45%]">
+               <label class="block text-sm font-medium text-slate-700">
+                   Nationality
+                </label>
+                <select name="nationality" class="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
+                invalid:border-pink-500 invalid:text-pink-600
+                focus:invalid:border-pink-500 focus:invalid:ring-pink-500">
+                    <option value="ng" class="py-5">Nigeria</option>
+                    <option value="gh">Ghana</option>
+                </select>
+                
+           </div>
+       </div>
+        <!-- four row -->
+        <div class="flex justify-between items-center lg:mt-10">
+            <input type="submit" value="Submit" class="bg-[#de6497] text-white rounded hover:bg-pink-700 ease-in duration-200 lg:py-2.5 lg:px-10">
+        </div>
+        </section>
+
+    </form>
+
+</div>
+</div>
+</body>
+</html>
